@@ -5,19 +5,12 @@ export default {
     htmlAttrs: {
       lang: "en"
     },
-    meta: [{ charset: "utf-8" }, { name: "viewport", content: "width=device-width, initial-scale=1" }, { hid: "description", name: "description", content: "" }, { name: "format-detection", content: "telephone=no" }],
+    meta: [{ charset: "utf-8" }, { name: "viewport", content: "width=device-width, initial-scale=1" }, { hid: "description", name: "description", content: "" }, { name: "format-detection", content: "telephone=no" }, { name: "卢方舟的nuxt模板测试name", content: "卢方舟的nuxt模板测试content" }],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    "element-ui/lib/theme-chalk/index.css"
-    /* 'assets/css/pageAnimate.css',
-    'assets/css/reset.css', */
-    /*
-    "@/assets/scss/entrance.scss"
-*/
-  ],
+  css: ["element-ui/lib/theme-chalk/index.css"],
   // global sass
   styleResources: {
     scss: ["~assets/scss/entrance.scss"]
