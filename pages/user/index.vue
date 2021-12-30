@@ -10,6 +10,21 @@ export default {
   data() {
     return {}
   },
+  head() {
+    return {
+      title: '用户',
+      meta: [{
+        hid: "description",
+        name: "description",
+        content: '用户首页'
+      },
+        {
+          hid: "keywords",
+          content: '用户'
+        }
+      ]
+    }
+  },
   created() {
   },
   mounted() {
