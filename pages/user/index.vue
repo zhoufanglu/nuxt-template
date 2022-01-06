@@ -7,6 +7,7 @@
 <script>
 export default {
   name: 'UserIndex',
+  layout: 'layout',
   data() {
     return {}
   },
